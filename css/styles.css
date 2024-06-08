@@ -149,7 +149,6 @@ ul {
 }
 
 .preview {
-    background-color: #2e2f42;
     min-width: 1440px;
     max-width: 1440px;
     min-height: 600px;
@@ -458,6 +457,7 @@ img {
 .item-footer {
     width: 40px;
     height: 40px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-links {
@@ -468,7 +468,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-links:hover,
